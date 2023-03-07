@@ -1,0 +1,85 @@
+body{
+    background-image: url(https://classenfloor.com/upload/2017/05/Lapacho-Negro.jpg);
+    background-size:cover   
+    
+}
+
+h1{
+    display: flex;
+    justify-content: right;
+    margin-right: 10em;
+    font-family: Times New Roman;
+    position: relative;
+    top: 13.5em;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #CFB997;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+   
+.info{
+position: relative;
+height: 100px;
+left: -35em;
+top: 12em;
+font-size: 2.5em;
+color:#ffa260;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-image: url(https://2.bp.blogspot.com/-9vvnma4IZPQ/Uh8zFKTXszI/AAAAAAAACD0/5uDdVA68rJU/s640/Background-Y-Repeat3.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows:repeat(3, 10vw);
+    grid-template-columns:repeat(3, 10vw);
+    margin-top: 7em;
+   
+}
+
+.boxtext{
+    color: #ffa260;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.box{
+    border: 2px solid #3C2A21;
+    font-size: 8vw;
+}
+
+.box:hover{
+background-color: #3C2A21;
+}
+
+button{
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    transition: all 0.25s;
+    margin-top: 25em;
+    position: relative;
+    right: -21em;
+   
+}
+
+button:hover {
+    border-color: #ffa260;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffa260;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  
